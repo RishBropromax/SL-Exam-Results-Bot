@@ -1,0 +1,47 @@
+{
+    "name": "SL-Exam-Results-Bot",
+    "description": "I m SL-Exam-Results-Bot",
+    "repository": "https://github.com/RishBropromax/SL-Exam-Results-Bot",
+    "logo": "https://telegra.ph/file/fd1cab593f6aa05187037.png",
+    "keywords": [
+    "python3",
+    "telegram",
+    "pmbot",
+    "pyrogram"
+    ],
+    "stack": "container",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Telegram bot token get it from  @BotFather",
+            "required": true
+        },
+        "API_ID": {
+            "description": "API_ID of your Telegram Account my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "API_HASH of your Telegram Account my.telegram.org/apps",
+            "required": true
+        },
+        "BOT_OWNER": {
+            "description": "Your Telegram Id",
+            "required": true
+        },
+        "OWNER": {
+            "description": "Also fill this with Your Telegram Id",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "Your Bot User Name",
+            "required": true
+        },
+        "MONGODB_URI": {
+            "description": "Mongodb database URI",
+            "required": true
+        },
+        "LOG_CHANNEL": {
+            "description": "User Log Group Id",
+            "required": true
+        } 
+    }
+}
